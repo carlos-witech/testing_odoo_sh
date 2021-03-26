@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="wi_invoice_due.list">
+      <field name="name">wi_invoice_due list</field>
+      <field name="model">wi_invoice_due.wi_invoice_due</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="wi_invoice_due.action_window">
+      <field name="name">wi_invoice_due window</field>
+      <field name="res_model">wi_invoice_due.wi_invoice_due</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="wi_invoice_due.action_server">
+      <field name="name">wi_invoice_due server</field>
+      <field name="model_id" ref="model_wi_invoice_due_wi_invoice_due"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="wi_invoice_due" id="wi_invoice_due.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="wi_invoice_due.menu_1" parent="wi_invoice_due.menu_root"/>
+    <menuitem name="Menu 2" id="wi_invoice_due.menu_2" parent="wi_invoice_due.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="wi_invoice_due.menu_1_list" parent="wi_invoice_due.menu_1"
+              action="wi_invoice_due.action_window"/>
+    <menuitem name="Server to list" id="wi_invoice_due" parent="wi_invoice_due.menu_2"
+              action="wi_invoice_due.action_server"/>
+-->
+  </data>
+</odoo>

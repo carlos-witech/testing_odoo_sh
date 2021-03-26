@@ -3,9 +3,9 @@
 # from odoo import models, fields, api
 
 
-# class wi_timesheet(models.Model):
-#     _name = 'wi_timesheet.wi_timesheet'
-#     _description = 'wi_timesheet.wi_timesheet'
+# class wi_invoice_due(models.Model):
+#     _name = 'wi_invoice_due.wi_invoice_due'
+#     _description = 'wi_invoice_due.wi_invoice_due'
 
 #     name = fields.Char()
 #     value = fields.Integer()

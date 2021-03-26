@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_wi_invoice_due_wi_invoice_due,wi_invoice_due.wi_invoice_due,model_wi_invoice_due_wi_invoice_due,base.group_user,1,1,1,1

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "wi_timesheet",
+    'name': "wi_invoice_due",
 
     'summary': """
         Short (1 phrase/line) summary of the module's purpose, used as
