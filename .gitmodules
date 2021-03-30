@@ -1,0 +1,4 @@
+[submodule "Invirent/youtube_module"]
+	path = Invirent/youtube_module
+	url = git@github.com:Invirent/youtube_module.git
+	branch = master
